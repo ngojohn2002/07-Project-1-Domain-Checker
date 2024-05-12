@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Hunter HQ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Domain Checker</h1>
+            <div class="field has-addons">
+                <div class="control is-expanded">
+                    <input class="input" type="text" id="domainInput" placeholder="Enter Domain">
+                </div>
+                <div class="control">
+                    <button class="button is-primary" onclick="checkDomain()">Check</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="domainInfoModal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title">Domain Checker</p>
+                <button class="delete is-large button is-success" aria-label="close" onclick="closeModal()"></button>
+            </header>
+            <section class="modal-card-body">
+                <div class="modal-content">
+                    <div class="box">
+                        <p id="domainInfo"></p>
+                    </div>
+                </div>
+            </section>
+            <footer class="modal-card-foot">
+                <div class="buttons">
+                    <button class="button is-success" onclick="closeModal()">Close</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
