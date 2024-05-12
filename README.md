@@ -74,4 +74,6 @@ THEN I am presented with how old the domain is and its registered owner's contac
 ## Link to Deployed Web App
 [https://girlnotfound.github.io/Domain-Hunter-HQ/index.html](https://girlnotfound.github.io/Domain-Hunter-HQ/index.html)
 
+[https://ngojohn2002.github.io/07-Project-1-Domain-Hunter-HQ/](https://ngojohn2002.github.io/07-Project-1-Domain-Hunter-HQ/)
+
 &copy;2024 - Domain Hunter HQ.
