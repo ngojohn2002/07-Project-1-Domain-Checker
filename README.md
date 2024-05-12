@@ -4,8 +4,6 @@
 
 Before registering a domain name, prospective registrants will need a way to check for its availability. Among other existing domain checkers, our colaborative project utilizes WhoisXML API's tools to access global domain registration data, allows users to quickly check if their desired domain name is still available, if taken then presents them with the current registrant's info.
 
-- Group colaboration.
-
 ## User Story
 
 ```
@@ -20,10 +18,10 @@ SO THAT I can register for it
 GIVEN a domain checker with form inputs
 
 1. WHEN I enter a domain name to search
-THEN I am presented whether the domain name is available or taken.
+THEN I am presented whether the domain name is available or taken
 
 2. WHEN a domain is taken
-THEN I am presented with how old the domain is and its registered owner's contact info.
+THEN I am presented with how old the domain is and its registered owner's contact info
 ```
 
 ## Screenshot, Wireframe or Sketch of UI
@@ -33,9 +31,9 @@ THEN I am presented with how old the domain is and its registered owner's contac
 
 ## Technologies Used
 
-1. [Name Checker API](https://domain-availability.whoisxmlapi.com/api)
-2. [Registration Checker API](https://whois.whoisxmlapi.com/)
-3. [Bulma CSS Framework](https://bulma.io/)
+- [Name Checker API](https://domain-availability.whoisxmlapi.com/api)
+- [Registration Checker API](https://whois.whoisxmlapi.com/)
+- [Bulma CSS Framework](https://bulma.io/)
 
 ## Colaborators (alphabetical order)
 - Kaila R.
