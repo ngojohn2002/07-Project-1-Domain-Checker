@@ -2,7 +2,7 @@
 
 ## Description
 
-Before registering a domain name, prospective registrants will need a way to check for its availability. Among other existing domain checkers, our colaborative project utilizes WhoisXML API's tools to access global domain registration data, allows users to quickly check if their desired domain name is still available, if taken then presents them with the current registrant's info.
+Before registering for a domain name, business owners will need a way to check for its availability. Among other domain checkers, our colaborative project utilizes WhoisXML API's tools to access global domain registration data, allows users to quickly check if their desired domain name is still available, if taken then presents them with the current registrant's info.
 
 ## User Story
 
@@ -74,6 +74,5 @@ THEN I am presented with how old the domain is and its registered owner's contac
 ## Link to Deployed Web App
 [https://girlnotfound.github.io/Domain-Hunter-HQ/index.html](https://girlnotfound.github.io/Domain-Hunter-HQ/index.html)
 
-[https://ngojohn2002.github.io/07-Project-1-Domain-Hunter-HQ/](https://ngojohn2002.github.io/07-Project-1-Domain-Hunter-HQ/)
 
 &copy;2024 - Domain Hunter HQ.

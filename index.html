@@ -10,26 +10,34 @@
 </head>
 
 <body>
-    <section class="section">
+    <header class="sticky-header center">
+        <h1 class="title">Domain Hunter HQ</h1>
+    </header>
+    <main class="section">
         <div class="container">
-            <h1 class="title">Domain Checker</h1>
+            <h2 class="title">Domain Checker</h2>
             <div class="field has-addons">
                 <div class="control is-expanded">
                     <input class="input" type="text" id="domainInput" placeholder="Enter Domain">
                 </div>
                 <div class="control">
-                    <button class="button is-primary" onclick="checkDomain()">Check</button>
+                    <button class="button is-black" onclick="checkDomain()">Check</button>
                 </div>
             </div>
         </div>
-    </section>
+    </main>
+    <footer class="sticky-footer center">
+        <h4 class="title">
+            &copy;2024 - Domain Header HQ.
+        </h4>
+    </footer>
 
     <div id="domainInfoModal" class="modal">
         <div class="modal-background"></div>
         <div class="modal-card">
             <header class="modal-card-head">
                 <p class="modal-card-title">Domain Checker</p>
-                <button class="delete is-large button is-success" aria-label="close" onclick="closeModal()"></button>
+                <button class="delete is-large button is-black" aria-label="close" onclick="closeModal()"></button>
             </header>
             <section class="modal-card-body">
                 <div class="modal-content">
@@ -40,7 +48,7 @@
             </section>
             <footer class="modal-card-foot">
                 <div class="buttons">
-                    <button class="button is-success" onclick="closeModal()">Close</button>
+                    <button class="button is-black" onclick="closeModal()">Close</button>
                 </div>
             </footer>
         </div>
